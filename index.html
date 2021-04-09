@@ -58,14 +58,14 @@
 				camera.lookAt( new THREE.Vector3( 0, 2, 0 ) );
 
 				scene = new THREE.Scene();
-				scene.background = new THREE.Color( 0xe0e0e0 );
+				scene.background = new THREE.Color( '#87CEEB' );
 				scene.fog = new THREE.Fog( 0xe0e0e0, 20, 100 );
 
 				clock = new THREE.Clock();
 
 				// lights
 
-				const hemiLight = new THREE.HemisphereLight( 0xffffff, 0x444444 );
+				const hemiLight = new THREE.HemisphereLight( '#70483C', '#70483C' );
 				hemiLight.position.set( 0, 20, 0 );
 				scene.add( hemiLight );
 
